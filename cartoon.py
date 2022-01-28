@@ -1,9 +1,7 @@
 import cv2
-import numpy as np 
 
 
-
-photo = "C:\Users\Modiran\Desktop\POR\pythons\machin\Face\\10.jpg"
+photo = "your file address"
 img = cv2.imread(photo)
 
 grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
